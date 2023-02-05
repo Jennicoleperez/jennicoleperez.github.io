@@ -171,38 +171,61 @@ nav{
     width: 50%;
     max-width: 30%;
     margin-left: 60%;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 20px;
     box-shadow: 0 0 20px 1px #0000004d;
     position: relative;
 }
 
-.formulario h3{
+.formulario h2{
     text-align:left;
     margin-top: 1%;
     color:#ffffff;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .formulario_input, .formulario_label, .formulario_submit{
     display: block;
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
-.formulario input{
+.formulario_input{
     padding: 5%;
-    border: 1px solid #0000004d;
-    margin-bottom: 5%;
+    border: 1px solid #ffffff;
+    margin-bottom: 10%;
+    background: transparent;
 }
+
+.formulario_input:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+
+.formulario_input:focus + .formulario_label{
+    margin-top: -28%;
+}
+
 
 .formulario_label{
-    padding-left: 10%;
+    padding-left: 5%;
     position: absolute;
-    margin-top: -18%;
+    margin-top: -20%;
+    z-index: -20;
+    color: #ffffff;
+    transition: all 0.2s;
 }
 
+.formulario_submit{
+    background-color: #ffffff;
+    color: #1A154E;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
 
+.fijar{
+    margin-top: -28%;
+}
 
 
 
