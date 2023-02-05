@@ -185,6 +185,58 @@ nav{
 
 /* HABILIDADES */
 
+.hab{
+    color: #ffffff;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+.task { 
+  position: relativle;
+  height: 26px;
+  border-radius: 13px;
+  border: 2px solid #dddddd;
+  width: 300px;
+  background: #eee;
+  margin: 10px 0 50px;
+}
+
+.progress {
+  position: relative;;
+  top: -2px; 
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 3px solid #808080;
+  background: #d3d3d3; 
+}
+
+.progress-red {
+  background: #a93226 ; 
+}
+.progress-orange {
+  background:  #f5b041; 
+}
+.progress-green {
+  background: #27ae60; 
+}
+
+.tooltip {
+  position: relative;
+  bottom: -30px;
+  font-size: .8rem;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity .2s;
+  word-spacing: -2px;
+}
+
+.task:hover .tooltip {
+  opacity: 1;
+}
+
 
 
 /* CONTÁCTAME */
@@ -250,7 +302,26 @@ nav{
     margin-top: -28%;
 }
 
+.social_media{
+    
+    margin-top: -15%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+#redes{
+    width: 4%;
+    margin-top: -8%;
+    display: block;
+    margin-left: 15%;
+}
 
+.social_media p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -3%;
+    margin-left: 20%;
+
+}
 
 
 @media screen and (max-width:1200px){
