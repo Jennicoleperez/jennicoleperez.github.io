@@ -167,9 +167,40 @@ nav{
 
 /* CONTÁCTAME */
 
+.formulario{
+    width: 50%;
+    max-width: 30%;
+    margin-left: 60%;
+    margin-top: 5%;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px #0000004d;
+    position: relative;
+}
 
+.formulario h3{
+    text-align:left;
+    margin-top: 1%;
+    color:#ffffff;
+    margin-bottom: 5%;
+}
 
+.formulario_input, .formulario_label, .formulario_submit{
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
 
+.formulario input{
+    padding: 5%;
+    border: 1px solid #0000004d;
+    margin-bottom: 5%;
+}
+
+.formulario_label{
+    padding-left: 10%;
+    position: absolute;
+    margin-top: -18%;
+}
 
 
 
