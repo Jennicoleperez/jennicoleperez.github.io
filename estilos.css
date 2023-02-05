@@ -10,7 +10,7 @@
 
 body{
     background: #0a2f43;
-    overflow: auto;
+    overflow: scroll;
 }
 
 nav{
