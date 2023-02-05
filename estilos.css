@@ -108,7 +108,6 @@ nav{
 
 .secciones h1{
     margin-top: 5%;
-    
     font-size: 60px;
     color: #ffffff;
     letter-spacing: 2px;
@@ -182,61 +181,65 @@ nav{
 }
 
 
-
 /* HABILIDADES */
-
-.hab{
-    color: #ffffff;
-    margin-top: 10%;
-    margin-left: 40%;
+.imagenes{
+    width: 4%;
+    margin-top: -27%;
+    display: block;
+    margin-left: 60%;
+    margin-bottom: 10%;
 }
-
+.wraper-progressbar{
+    margin-top: 7%;
+    margin-left: 20%;
+    color: #ffffff;
+    margin-bottom: 5%;
+}
 
 .task { 
-  position: relativle;
-  height: 26px;
-  border-radius: 13px;
-  border: 2px solid #dddddd;
-  width: 300px;
-  background: #eee;
-  margin: 10px 0 50px;
+    position: relative;
+    height: 26px;
+    border-radius: 13px;
+    border: 2px solid #ddd;
+    width: 300px;
+    background: #eee;
+    margin: 10px 0 50px;
 }
-
-.progress {
-  position: relative;;
-  top: -2px; 
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border: 3px solid #808080;
-  background: #d3d3d3; 
-}
-
-.progress-red {
-  background: #a93226 ; 
-}
-.progress-orange {
-  background:  #f5b041; 
-}
-.progress-green {
-  background: #27ae60; 
-}
-
-.tooltip {
-  position: relative;
-  bottom: -30px;
-  font-size: .8rem;
-  text-align: center;
-  white-space: nowrap;
-  opacity: 0;
-  transition: opacity .2s;
-  word-spacing: -2px;
-}
-
-.task:hover .tooltip {
-  opacity: 1;
-}
-
+  
+  .progress {
+    position: relative;
+    top: -2px; 
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    background: lightgray;
+  }
+  
+  .progress-red {
+    background: #a93226 ; 
+  }
+  .progress-orange {
+    background:  #f5b041; 
+  }
+  .progress-green {
+    background: #27ae60; 
+  }
+  
+  .tooltip {
+    position: relative;
+    bottom: -30px;
+    font-size: .8rem;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity .2s;
+    word-spacing: -2px;
+  }
+  
+  .task:hover .tooltip {
+    opacity: 1;
+  }
 
 
 /* CONTÁCTAME */
